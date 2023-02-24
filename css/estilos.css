@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.barrasuperior {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+}
+
+ul { 
+    list-style: none;
+    
+}
+.footer {
+        height: 250px;
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        font-family: 'Roboto', sans-serif;
+        
+}
+.info__main {
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2.5rem;    
+}
+.minombre {
+            font-size: 2rem;
+            color: white;
+            padding-right: 2rem;
+            font-family: 'Roboto', sans-serif;
+            
+}
+
+.objetivo {
+           text-decoration: dashed;
+           text-align: justify;
+}
+           
+.linkactivo {
+             background-color: grey;
+}
+.info__educacion {
+                text-align: center;                
+                font-size: 1.5rem;
+                font-family: 'Roboto', sans-serif;
+                line-height: 3.5rem;
+                margin-top: 5rem;            
+}
+.info__experiencia {
+        text-align: center;                
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 3rem; 
+        margin-top: 3rem;           
+}   
+.info__habilidades {
+        text-align: center;                
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 3rem;
+        margin-top: 5rem; 
+}         
+.main__cv {
+                background-color:#F7F3F2;
+}
+#exp1  {
+        background-color:grey;
+        border-color: green;
+        margin-bottom: 1rem;
+}
+#exp2  {
+        background-color:grey;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-color: green;
+        margin-bottom: 1rem;
+        
+}
+#exp3  {
+        background-color:grey;
+        padding-left: 21px;
+        padding-right: 21px;
+        border-color: green;
+        margin-bottom: 1rem;
+}   
+#exp4 {
+        background-color:grey;
+        padding-left: 24px;
+        padding-right: 24px;
+        border-color: green;
+        margin-bottom: 1rem;
+}
+#exp5  {
+        background-color:grey;
+        padding-right: 65px;
+        padding-left: 50px;
+        border-color: green;
+        margin-bottom: 1rem;
+}
+        
+/*ESTILOS MEDIA QUERIES*/
+@media (max-width: 1025px) {
+        .footer {
+                height: 110px;
+                font-size: 1.5rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif;   
+}
+        .info__main {
+                font-size: 1.3rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif; 
+        
+        }
+        .info__educacion {
+                        padding-top: 0rem;
+                        margin-top: 2rem;
+                        text-align: left;
+                        font-size: 1.6rem;
+        }
+        .info__experiencia {
+                        font-size: 1.6rem;
+                        text-align: center;
+                        margin-top: 4rem;
+                        line-height: 1.4rem;
+                        margin-right: 3rem;
+}
+          .info__habilidades {
+        font-size: 1.6rem;
+        margin-top: 3rem;
+        margin-right: 2rem;
+
+                      
+ }       
+}   
+@media (max-width: 769px) {
+        .footer {
+                height: 110px;
+                font-size: 1.4rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif;   
+}
+        .info__main {
+                font-size: 1.2rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif; 
+        
+        }
+        .info__educacion {
+                        padding-top: 0rem;
+                        margin-top: 2rem;
+                        text-align: left;
+                        font-size: 1.4rem;
+        }
+        .info__experiencia {
+                        font-size: 1.4rem;
+                        text-align: center;
+                        margin-top: 3rem;
+                        line-height: 1.4rem;
+                        margin-right: 3rem;
+}
+          .info__habilidades {
+        font-size: 1.2rem;
+        margin-top: 3rem;
+        margin-right: 2rem;
+
+                      
+ }       
+}   
+@media (max-width: 426px) {
+        .footer {
+                height: 100px;
+                font-size: 1rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif;   
+}
+        .info__main {
+                font-size: 1.2rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif; 
+        
+        }
+        .info__educacion {
+                        padding-top: 0rem;
+                        margin-top: 0rem;
+                        text-align: left;
+                        font-size: 1.2rem;
+        }
+        .info__experiencia {
+                        font-size: 1.4rem;
+                        text-align: center;
+                        margin-top: 2rem;
+                        line-height: 1.4rem;
+                        margin-top: 3rem;
+                        margin-right: 3rem;
+}
+          .info__habilidades {
+        font-size: 1.2rem;
+        margin-top: 3rem;
+        margin-right: 2rem;
+
+                      
+ }       
+}   
+@media (max-width: 376px) {
+        .footer {
+                height: 90px;
+                font-size: 0.8rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif;   
+}
+        .info__main {
+                font-size: 1rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif; 
+        
+        }
+        .info__educacion {
+                        padding-top: 1rem;
+                        margin-top: 1rem;
+                        text-align: left;
+                        font-size: 1rem;
+        }
+        .info__experiencia {
+                        font-size: 1.3rem;
+                        text-align: center;
+                        margin-top: 1rem;
+                        line-height: 1.4rem;
+                        margin-top: 3rem;
+                        margin-right: 3rem;
+}
+          .info__habilidades {
+        font-size: 1.2rem;
+        margin-top: 3rem;
+
+                      
+ }       
+}   
+@media (max-width: 320px) {
+        .footer {
+                height: 80px;
+                font-size: 0.7rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif;   
+}
+        .info__main {
+                font-size: 1rem;
+                padding-top: 0rem;
+                font-family: 'Roboto', sans-serif; 
+        
+        }
+        .info__educacion {
+                        padding-top: 1rem;
+                        margin-top: 1rem;
+                        text-align: left;
+                        font-size: 1rem;
+                        margin-right: 2rem;
+        }
+        .info__experiencia {
+                        font-size: 1.3rem;
+                        text-align: center;
+                        margin-top: 1rem;
+                        line-height: 1.4rem;
+                        margin-top: 3rem;
+                        margin-right: 3rem;
+}
+.info__habilidades {
+                font-size: 1rem;
+                margin-top: 2rem;
+}
+
+                
+        
+}   
+
